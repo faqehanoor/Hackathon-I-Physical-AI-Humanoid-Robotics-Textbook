@@ -1,0 +1,19 @@
+.features {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  width: 100%;
+}
+
+.featureSvg {
+  height: 200px;
+  width: 200px;
+  margin-bottom: 1rem; /* Added margin for consistency */
+}
+
+.featureImage {
+  height: 200px;
+  width: 200px;
+  object-fit: contain; /* Ensures the image fits within the dimensions without cropping */
+  margin-bottom: 1rem;
+}
